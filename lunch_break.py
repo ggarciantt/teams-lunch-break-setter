@@ -15,7 +15,7 @@ def moving_and_clicking(x, y):
 moving_and_clicking(0, 0)
 keyboard.press_and_release('esc')
 sleep(0.1)
-moving_and_clicking(width, 37)
+moving_and_clicking(width, height)
 moving_and_clicking(width, height + 163)
 moving_and_clicking(width, height + 413)
 sleep(0.1)
