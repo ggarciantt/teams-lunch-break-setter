@@ -14,7 +14,6 @@ def moving_and_clicking(x, y):
 # Definir o status para ausente
 moving_and_clicking(0, 0)
 sleep(0.1)
-mouse.click(mouse.LEFT)
 keyboard.press_and_release('esc')
 sleep(0.1)
 moving_and_clicking(width, height)
